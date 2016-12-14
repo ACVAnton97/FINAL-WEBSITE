@@ -1,0 +1,52 @@
+background-color: transparent;
+
+f* {
+    box-sizing: border-box;
+}
+body, ul, li {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    width: 100%;
+}
+nav ul {
+    list-style-type: none;
+}
+nav li {
+    float: left;
+    width: 22.7%;
+    background: red;
+    color: white;
+    border-radius: 150px;
+    padding: 1em;
+    margin-top: 1em;
+    text-align: center
+}
+nav li a {
+    color: white;
+}
+
+nav li.active {
+    background: red;
+}
+
+.main {
+    clear: left;
+    width: 100%;
+}
+footer { 
+    display: block;
+}
+table, th, td {
+    border: 2px solid black; color: white
+}
+.Footers {text-align: center}
+.maintittle {text-align: center}
+.mainlogo {float: center}
+.twotittle {text-align: center}
+.threetittle {text-align: center}
+.fourthtittle {text-align: center}
+.documentary {text-align: center}
+.youtubeplayer {text-align: center}
+.video {text-align: center}
